@@ -1,4 +1,3 @@
-schema/01_create_table.sql
 -- 01_create_table.sql
 -- 화장품 전자상거래 이벤트 로그 테이블 생성
 
