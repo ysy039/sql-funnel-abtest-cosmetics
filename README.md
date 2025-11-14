@@ -71,6 +71,19 @@ purchase : 구매까지 완료한 세션 수
 - 브랜드 정보가 있는 세션 subset 을 사용하여 브랜드별 퍼널 비교
 <img width="1453" height="919" alt="스크린샷 2025-11-14 142950" src="https://github.com/user-attachments/assets/f00ac7d2-baca-460f-8f77-08928b3b017b" />
 
+## 📂 Project Structure
+
+```text
+sql-funnel-abtest-cosmetics/
+ ├─ schema/
+ │   └─ 01_create_table.sql
+ ├─ data/
+ │   └─ 02_load_data_example.sql
+ ├─ analysis/
+ │   ├─ 03_funnel_analysis.sql
+ │   └─ 04_ab_test_pre_post.sql
+ └─ README.md
+
 
 ## 5. 사용 기술
 - MySQL
